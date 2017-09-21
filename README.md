@@ -15,7 +15,7 @@ My example script was stored in the /home/pi directory and named “OTP_BASED_DO
 
 # Create A Unit File
 Next we will create a configuration file (aka a unit file) that tells systemd what we want it to do and when :
-sudo nano /lib/systemd/system/myscript.service
+sudo nano /lib/systemd/system/OTP_BASED_DOOR_UNLOCKING_SYSTEM.service
 
 Add in the following text :
 [Unit]
@@ -34,16 +34,13 @@ This defines a new service called “OTP_BASED_DOOR_UNLOCKING_SYSTEM Service” 
 Note that the paths are absolute and fully define the location of Python as well as the location of our Python script.
 
 In order to store the script’s text output in a log file you can change the ExecStart line to :
-
 ExecStart=/usr/bin/python /home/pi/OTP_BASED_DOOR_UNLOCKING_SYSTEM.py > /home/pi/OTP_BASED_DOOR_UNLOCKING_SYSTEM.log 2>&1
 
 The permission on the unit file needs to be set to 644 :
-
 sudo chmod 644 /lib/systemd/system/OTP_BASED_DOOR_UNLOCKING_SYSTEM.service
 
 # Configure systemd
 Now the unit file has been defined we can tell systemd to start it during the boot sequence :
-
 sudo systemctl daemon-reload
 sudo systemctl enable OTP_BASED_DOOR_UNLOCKING_SYSTEM.service
 
