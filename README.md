@@ -1,5 +1,5 @@
 # OTP_BASED_AUTHENTICATION_USING_IIOT
-An OTP based door unlocking system, It sends sms to your registered number through Twilio online sms client.
+An OTP based door unlocking system, It sends sms to your registered number through Twilio online sms client.Now I have added the feature that you can receive the same through Gmail.
 
 # PRE-REQUISITIES
 python2.7
@@ -7,6 +7,7 @@ Install pip if you are using windows computer
 if raspberry pi:
 pip install twilio
 pip install paho-mqtt
+
 
 # IF YOY WANT TO RUN YOUR SCRIPT BACKGROUND IN RPI 
 
@@ -48,3 +49,7 @@ sudo reboot
 
 # Check status of your service
 sudo systemctl status OTP_BASED_DOOR_UNLOCKING_SYSTEM.service
+
+# GMail feature
+Get your encoded username and password in base 64 
+
