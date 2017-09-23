@@ -4,7 +4,7 @@ An OTP based door unlocking system, It sends sms to your registered number throu
 # PRE-REQUISITIES
 * python2.7
 * Install pip if you are using windows computer
-* if raspberry pi:
+## if raspberry pi:
 * pip install twilio
 * pip install paho-mqtt
 # ARDUINO LIBRIES
