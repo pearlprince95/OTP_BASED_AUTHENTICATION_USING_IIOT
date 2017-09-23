@@ -51,7 +51,7 @@ Now the unit file has been defined we can tell systemd to start it during the bo
 *sudo reboot
 
 # Check status of your service
-sudo systemctl status OTP_BASED_DOOR_UNLOCKING_SYSTEM.service
+*sudo systemctl status OTP_BASED_DOOR_UNLOCKING_SYSTEM.service*
 If the service gets started you wil be returned with a green ACTIVE line.
 
 # GMail feature
