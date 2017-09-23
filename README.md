@@ -7,6 +7,10 @@ Install pip if you are using windows computer
 if raspberry pi:
 pip install twilio
 pip install paho-mqtt
+# ARDUINO LIBRIES
+WiFiClientSecure
+ESP8266mDNS
+PubSubClient
 
 
 # IF YOY WANT TO RUN YOUR SCRIPT BACKGROUND IN RPI 
@@ -52,4 +56,4 @@ sudo systemctl status OTP_BASED_DOOR_UNLOCKING_SYSTEM.service
 
 # GMail feature
 Get your encoded username and password in base 64 
-
+https://www.base64encode.org/
