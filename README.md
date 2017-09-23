@@ -53,6 +53,7 @@ sudo reboot
 
 # Check status of your service
 sudo systemctl status OTP_BASED_DOOR_UNLOCKING_SYSTEM.service
+If the service gets started you wil be returned with a green ACTIVE line.
 
 # GMail feature
 Get your encoded username and password in base 64 
