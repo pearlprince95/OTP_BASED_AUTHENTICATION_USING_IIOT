@@ -8,7 +8,7 @@ if raspberry pi:
 pip install twilio
 pip install paho-mqtt
 # ARDUINO LIBRIES
-WiFiClientSecure
+WiFiClientSecure \n
 ESP8266mDNS
 PubSubClient
 
