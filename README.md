@@ -58,3 +58,4 @@ If the service gets started you wil be returned with a green ACTIVE line.
 # GMail feature
 Get your encoded username and password in base 64 
 https://www.base64encode.org/
+PLEASE CHANGE YOUR Gmail CREDENTIALS such as USERNAME and PASSWORD
