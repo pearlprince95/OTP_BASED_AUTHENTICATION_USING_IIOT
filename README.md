@@ -2,16 +2,15 @@
 An OTP based door unlocking system, It sends sms to your registered number through Twilio online sms client.Now I have added the feature that you can receive the same through Gmail.
 
 # PRE-REQUISITIES
-python2.7
-Install pip if you are using windows computer
-if raspberry pi:
-pip install twilio
-pip install paho-mqtt
+* python2.7
+* Install pip if you are using windows computer
+* if raspberry pi:
+* pip install twilio
+* pip install paho-mqtt
 # ARDUINO LIBRIES
-WiFiClientSecure 
-ESP8266mDNS
-PubSubClient
-
+* WiFiClientSecure 
+* ESP8266mDNS
+* PubSubClient
 
 # IF YOY WANT TO RUN YOUR SCRIPT BACKGROUND IN RPI 
 
